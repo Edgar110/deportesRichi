@@ -2,4 +2,4 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/deport38/public_html/
-    - /dist/deportesRichi -a * $DEPLOYPATH
+    - /dist/deportesRichi * $DEPLOYPATH
