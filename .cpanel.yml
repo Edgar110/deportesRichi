@@ -1,5 +1,5 @@
 ---
 deployment:
-      tasks:
-        - export DEPLOYPATH=/home1/deport38/public_html/test
-        - /bin/cp -r /home1/deport38/repositories/deportesRichi/dist/deportesRichi* $DEPLOYPATH
+  tasks:
+    - export DEPLOYPATH=/home1/deport38/public_html/test
+    - /bin/cp index.html $DEPLOYPATH
