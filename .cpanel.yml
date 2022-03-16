@@ -1,5 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/deport38/public_html/
-    - /dist/deportesRichi * $DEPLOYPATH
+    - export DEPLOYPATH=/home1/deport38/public_html/
+    - /bin/rm -Rf $DEPLOYPATH
+    - /bin/mkdir $DEPLOYPATH
+    - /bin/cp * dist/. $DEPLOYPATH
